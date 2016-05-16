@@ -55,7 +55,7 @@ h1 {
 }
 
 #content {
- width: 650px;
+ width: 800px;
  margin: 0 auto;
  padding: 10px;
  background: #eee;
@@ -107,10 +107,10 @@ li {
 }
 
 #places ul li a {
-  padding: .2em 1em;
   text-decoration: none;
+  color: black;
 }
 
 #places ul li a:visited {
-  color: #222;
+  color: black;
 }
