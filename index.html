@@ -1,257 +1,371 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Will Radford</title>
-    <link href='https://fonts.googleapis.com/css?family=Muli|Rokkitt' rel='stylesheet' type='text/css'>
-    <link rel="StyleSheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <meta name="generator" content="Jekyll v3.7.2" />
+    <meta property="og:title" content="Will Radford" />
+    <meta property="og:locale" content="en_AU" />
+    <meta name="description" content="TODO" />
+    <meta property="og:description" content="TODO" />
+    <link rel="canonical" href="http://localhost:4000/" />
+    <meta property="og:url" content="http://localhost:4000/" />
+    <meta property="og:site_name" content="TODO" />
+    <script type="application/ld+json">
+      {
+        "headline":"Your awesome title",
+        "description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.",
+        "name":"Your awesome title",
+        "@type":"WebSite",
+        "url":"http://localhost:4000/",
+        "@context":"http://schema.org",
+      }
+      </script>
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <style>
+      .name {
+        color: #E14658;
+      }
+
+      nav {
+        color: #A5FFD6;
+        background: #22252C;
+      }
+
+      .cards {
+        background: #323250;
+      }
+
+      .headshot{
+        width: 35px;
+      }
+
+    </style>
+
   </head>
   <body>
-    <div id="content">
-        <img id="headshot" src="headshot-small.jpg" alt="Headshot"></img>
-        <div>
-            <div id="bigname"><h1>Will Radford</h1></div>
-            <p>
-              I'm a data scientist working at <a href="http://www.redmarker.com.au/">Red Marker</a> using natural language processing to improve financial regulation. I'm interested in the whole <i>dataops</i> process: 
-              <ul>
-                <li>Modelling problems with experts, building annotation tools and workflows to make sure we make the most of our data (for more details check out our 2017 ALTA tutorial <a href="http://alta2017.alta.asn.au/tutorials.html">Active Learning ... and Beyond! 🚀</a> covering a few of these ideas -- <a href="https://github.com/edgedown/alta17active">jupyter included</a>).</li>
-                <li>Using efficient machine learning (i.e. my 2017 <a href="https://wejradford.github.io/fastText-reddit">HLT Meetup talk on fastText</a>)</li>
-                <li>Deploying systems that can handle production-loads by using containers or serverless platforms.</li>
-              </ul>
-            </p>
-            <p>
-               I also help organise the <a href="http://www.meetup.com/Humans-Language-Technology">Humans, Language, Technology Meetup</a> to help promote Natural Language Processing in Sydney.
-            </p> 
-            <p>
-               I was lead data scientist / engineer at <a href="https://www.hugo.ai">hugo.ai</a>, helping build <i>collective intelligence systems</i> that find, organise and summarise information.
-            </p>
-            <p>
-              I was a postdoctoral researcher at <a href="http://xrce.xerox.com/">Xerox Research Centre Europe</a>, working with <a href="http://www.xrce.xerox.com/About-XRCE/People/James-Henderson">Jamie Henderson</a> and <a href="http://www.xrce.xerox.com/About-XRCE/People/Xavier-Carreras">Xavier Carreras</a> on natural language understanding, particularly for dialogue.
-            </p>
-            <p>
-              Before that, I was a PhD student at <a href="http://schwa.org/">Schwa Lab</a> in the <a href="http://sydney.edu.au/engineering/it/">School of IT</a> supervised by <a href="http://www.it.usyd.edu.au/~james/">James Curran</a> and <a href="http://benhachey.info/">Ben Hachey</a>. Much of my academic work has been in collaboration with the <a href="http://www.cmcrc.com/">Capital Markets Cooperative Research Centre</a>.
-            </p>
-            <p>
-              Here are <a href="http://wejradford.github.io/wejradford-resume-1page.pdf">one</a> and <a href="http://wejradford.github.io/wejradford-resume-2pages.pdf">two</a> page versions of my resume, please contact me for more detail.
-            <p>
-            <div id="places">
-                <ul>
-                    <li><a href="http://au.linkedin.com/in/wejradford/"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
-                    <li><a href="http://scholar.google.com.au/citations?user=AVzL-3YAAAAJ&hl=en"><i class="fa fa-edit"></i> Google Scholar</a></li>
-                    <li><a href="https://github.com/wejradford"><i class="fa fa-github-square"></i> GitHub</a></li>
-                    <li><a href="https://twitter.com/wejradford"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                </ul>
-            </div>
-            </p>
-        <div>
-        <div>
-            <h2>Research</h2>
-            <p>
-            <ul>
-                <li>Named Entity Linking (my PhD topic): At the University of Sydney, we participated in the NEL track of <a href="http://www.nist.gov/tac/about/index.html">TAC</a> in <a href="http://nlp.cs.qc.cuny.edu/kbp/2010/">2010</a>, <a href="http://nlp.cs.qc.cuny.edu/kbp/2011/">2011</a>, <a href="http://www.nist.gov/tac/2012/KBP/index.html">2012</a> and <a href="http://www.it.usyd.edu.au/~gpin7031/pubs/tac13sysdesc.pdf">2013</a> -- <a href="http://sydney.edu.au/engineering/it/research/conversazione_2010/radfordw.pdf">here's a high-level poster</a>. We also launched a product with <a href="http://fairfaxmedia.com.au/">Fairfax</a> based on this research, named <a href="http://www.smh.com.au/zoom">zoom</a> (paywall).</li>
-                <li>Natural language understanding for dialogue: At XRCE, I work on trying to unpack meaning from dialogue, including what dialogue acts people are using, and the entities they are talking about.</li>
-                <li>Computational social science: At XRCE, I worked on trying to compare gender representations onscreen and in real life using <a href="http://www.imdb.com">IMDb</a>. This was presented at the web science track of the WWW conference, and got picked up by the <a href="http://www.nytimes.com/2015/04/26/opinion/sunday/what-role-do-you-want-to-play.html">New York Times</a>.</li>
-                <li>Emoji: As a side-project, I did some analysis on the <a href="http://www.emojidick.com/">EmojiDick</a> project 😎</li>
-                <li><a href="http://sydney.edu.au/engineering/it/research/conversazione_2009/radfordw.pdf">Tracking Information Flow in Finance Text</a> (my Honours project in 2009): We built a classifier to predict when financial information flowed between pairs of ASX company announcements and Reuters news stories.</li>
+    <nav class="navbar sticky-top navbar-dark">
+      <h1 class="display-6 name font-weight-bold">
+      <img class="rounded-circle headshot" 
+           src="http://wejradford.github.io/headshot-small.jpg" 
+           alt="Card image cap">
+        Will Radford
+      </h1>
+      <div>
+        <a href="https://github.com/wejradford"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://twitter.com/wejradford"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a href="https://au.linkedin.com/in/wejradford/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://scholar.google.com.au/citations?user=AVzL-3YAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+        <a href="https://arxiv.org/find/cs/1/au:+Radford_W/0/1/0/all/0/1"><i class="ai ai-arxiv-square ai-2x"></i></a>
+      </div>
+    </nav> 
+    <div class="card-columns container-fluid cards">
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">About</h5>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <p class="card-text">
+          I like solving <strong>applied machine learning</strong> problems, especially those that deal
+          with <strong>natural language processing</strong> or <strong>interactive intelligence</strong>.
 
-                <li>Teaching: I tutored <a href="http://rp-www.cs.usyd.edu.au/~info1903/">INFO1903 Infomatics (Advanced)</a> (2010, 2011, 2012) and <a href="http://rp-www.cs.usyd.edu.au/~comp5338/">COMP5338 Advanced Data Models</a> (2010, 2011). I received a 2012 Dean's Award for Excellence in Tutoring (School).</li>
-            </ul>
-            </p>
+          I've had fun doing so in academia, large companies and startups
+          since 2004.
+          </p>
+          <a href="http://wejradford.github.io/wejradford-resume-1page.pdf" class="card-link">One page resume</a>
+          <a href="http://wejradford.github.io/wejradford-resume-1pages.pdf" class="card-link">Two page resume</a>
         </div>
-        <div id="publications">
-            <h2>Publications</h2>
-                <h3>2017</h3>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Automating compliance at RedMarker</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Current work at <a href="http://redmarker.com.au">RedMarker</a></h6>
+          <p class="card-text">
+          I'm helping build tools to change how the financial industry stays compliant with regulation. We're focussing on applied machine learning and natural language processing that scales and lives in containers or serverless environments.
+          </p>
+        <a href="https://github.com/wejradford/wejradford.github.io/raw/master/snlp-2017.pdf" class="card-link">NLP-in-the-wild-slides</a>
+        </div>
 
-                <ul>
-                     <li>
-                       Bo Han, <span class="wradford">Will Radford</span>, Anaïs Cadilhac, Art Harol, Andrew Chisholm, Ben Hachey
-                       <span class="title">Post-edit Analysis of Collective Biography Generation</span> 
-                       <span class="pub">to appear in WWW17 (poster)</span>
-                       [<a href="https://arxiv.org/abs/1702.05821">submission</a>]
-                       [<a href="http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p791.pdf">www</a>]
-                     </li>
-                     <li>
-                       Andrew Chisholm, <span class="wradford">Will Radford</span> and Ben Hachey
-                       <span class="title">Learning to generate one-sentence biographies from Wikidata</span> 
-                       <span class="pub">in EACL17</span>
-                       [<a href="https://arxiv.org/abs/1702.06235">submission</a>]
-                       [<a href="https://aclweb.org/anthology/E17-1060">www</a>]
-                     </li>
-                </ul>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Sydney NLP</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Natural language processing meetup in Sydney</h6>
+          <p class="card-text">
+          <a href="https://twitter.com/benhachey">Ben</a>, <a href="https://twitter.com/AllSchuckUp">Adam</a>, <a href="https://twitter.com/alexnorth">Alex</a> and I started this meetup in 2015 on a hunch that there was a community with interesting things to talk about.
+          </p>
+          <a href="https://www.meetup.com/Humans-Language-Technology/" class="card-link">Website</a>
+        </div>
+      </div>
+
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Active Learning ... and Beyond! 🚀</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Tutorial at ALTA17</h6>
+          <p class="card-text">
+          <a href="https://twitter.com/benhachey">Ben</a>, <a href="https://twitter.com/BrooklynHAN">Bo</a> and I prepared a tutorial on using active learning to bootstrap simple NLP systems, including a live shared task.
+          </p>
+          <a href="http://alta2017.alta.asn.au/tutorials.html" class="card-link">Website</a>
+          <a href="https://github.com/edgedown/alta17active" class="card-link">Jupyter</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Playing around with fastText to classify reddit submissions</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Tutorial at the Sydney NLP meetup</h6>
+          <p class="card-text">
+          This is a quick and dirty tutorial trying out <a href="https://fasttext.cc/">fastText</a>
+          on some toy reddit text classification. See also bonus round on hacking continuous features into fastText.
+          </p>
+          <a href="https://wejradford.github.io/fastText-reddit" class="card-link">Website</a>
+          <a href="https://github.com/wejradford/fastText-playground" class="card-link">GitHub</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Collective intelligence for web person search</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          Helped build a cool person research app backed by human and machine collective intelligence with 
+          <a href="https://twitter.com/benhachey">Ben</a>, <a href="https://twitter.com/BrooklynHAN">Bo</a>, <a href="https://twitter.com/szekaichen">Sze Kai</a> and <a href="https://twitter.com/andrewchisholm">Andy</a>.
+          </p>
           
-                <h3>2016</h3>
-
-                <ul>
-                     <li>
-                       <span class="wradford">Will Radford</span>, Andrew Chisholm, Ben Hachey and Bo Han 
-                       <span class="title">📞👨⛵🐳👌; or "Call me Ishmael" - How do you translate emoji?</span> 
-                       <span class="pub">in ALTA16</span> 
-                       [<a href="https://arxiv.org/abs/1611.02027">submission</a>] 
-                       [<a href="https://www.aclweb.org/anthology/U/U16/U16-1018.pdf">www</a>] 
-                       [<a href="https://github.com/wejradford/emojidick/blob/master/emojidick.ipynb">Jupyter notebook</a>]
-                     </li>
-                     <li>
-                       Xavier Holt, <span class="wradford">Will Radford</span> and Ben Hachey 
-                       <span class="title">Presenting a New Dataset for the Timeline Generation Problem</span> 
-                       <span class="pub">in ALTA16</span> 
-                       [<a href="https://arxiv.org/abs/1611.02025">submission</a>] 
-                       [<a href="https://www.aclweb.org/anthology/U/U16/U16-1019.pdf">www</a>]
-                     </li>
-                     <li>
-                       <span class="wradford">Will Radford</span>, Matthias Gallé 
-                       <span class="title">Tracking onscreen gender and role bias over time</span>
-                       <span class="pub">in Journal of Web Science</span> 
-                       [<a href="http://www.webscience-journal.net/webscience/article/download/23/14">www</a>] 
-                     </li>
-                    <li>
-                      Glen Pink, <span class="wradford">Will Radford</span> and Ben Hachey 
-                      <span class="title">Classification of mental health forum posts</span>
-                      <span class="pub"> in Proceedings of the Third Workshop on Computational Lingusitics and Clinical Psychology</span> 
-                      [<a href="http://hollingk.github.io/CLPsych/pdf/CLPsych24.pdf">www</a>]
-                    </li>
-                    <li>Andrew Chisholm, <span class="wradford">Will Radford</span> and Ben Hachey
-                    <span class="title">Discovering Entity Knowledge Bases on the Web</span>
-                    <span class="pub"> in Proceedings of the Fifth Workshop on Automated Knowledge Base Construction (AKBC)</span>
-                      [<a href="https://aclweb.org/anthology/W/W16/W16-1302.pdf">www</a>] 
-                      [<a href="http://alta.asn.au/events/sharedtask2016/">shared task</a>]
-                    </li>
-                    <li>
-                      Julien Perez and <span class="wradford">Will Radford</span> 
-                      <span class="title">Probabilistic matching for dialog state tracking with limited training data</span> 
-                      <span class="pub">in International Workshop on Spoken Dialogue Systems (IWSDS)</span>
-                      [<a href="http://www.colips.org/workshop/dstc4/papers/31.pdf">www</a>]
-                    </li>
-                     <li>
-                       <span class="wradford">Will Radford</span>, Matthias Gallé 
-                       <span class="title">Discriminating between similar languages in Twitter using label propagation</span> 
-                       <span class="pub">in arXiv</span> 
-                       [<a href="https://arxiv.org/abs/1607.05408">www</a>]
-                       [<a href="https://www.google.com/patents/US9645995">patent</a>] 
-                     </li>
-                </ul>    
-          
-
-                <h3>2015</h3>
-                <ul>
-                     <li>
-                      <span class="wradford">Will Radford</span>, Xavier Carreras, Jamie Henderson 
-                      <span class="title">Named entity recognition with document-specific KB tag gazetteers</span> 
-                      <span class="pub">in Proceedings of the Conference on Empirical Methods in Natural Language Processing, EMNLP 15</span> 
-                      [<a href="http://www.aclweb.org/anthology/D/D15/D15-1058.pdf">www</a>]
-                      [<a href="https://www.google.com/patents/EP3136257A3">patent</a>] 
-                     </li>
-                </ul>
-                <ul>
-                    <li>
-                       <span class="wradford">Will Radford</span>, Matthias Gallé 
-                       <span class="title">"Roles for the boys?" Mining cast lists for gender and role distributions over time</span>
-                       <span class="pub">in Proceedings of the 24th International World Wide Web Conference, WWW 15 (Web Science)</span>
-                       [<a href="http://arxiv.org/abs/1503.03275">submission</a>] 
-                       [<a href="http://www.www2015.it/documents/proceedings/companion/p323.pdf">www</a>] 
-                       [<a href="http://www.nytimes.com/2015/04/26/opinion/sunday/what-role-do-you-want-to-play.html">New York Times</a>] 
-                    </li>
-                </ul>
-                <ul>
-                     <li>
-                       <span class="wradford">Will Radford</span>, Daniel Tse, Joel Nothman, Ben Hachey, George Wright, James R. Curran, Will Cannings, Tim O'Keefe, Matt Honnibal, David Vadas, Candice Loxley <span class="title">The Computable News project: research in the newsroom</span> <span class="pub">in Proceedings of the 2nd workshop on Web and Data Science for News Publishing</span> [<a href="pubs/newswww15compnews.pdf">submission</a>] [<a href="http://www.www2015.it/documents/proceedings/companion/p903.pdf">www</a>] </li>
-                </ul>
-                <ul>
-                     <li><span class="wradford">Will Radford</span> <span class="title">Linking Named Entities to Wikipedia</span> <span class="pub">PhD thesis</span> [<a href="http://ses.library.usyd.edu.au//bitstream/2123/12850/1/Radford_WEJ_Thesis.pdf">www</a>] </li>
-                </ul>
-            
-                <h3>2014</h3>
-                <ul>
-                
-                     <li>Ben Hachey, Joel Nothman, <span class="wradford">Will Radford</span> <span class="title">Cheap and easy entity evaluation</span> <span class="pub">in Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</span> [<a href="http://www.aclweb.org/anthology/P14-2076">www</a>] </li>
-                
-                </ul>
-            
-                <h3>2013</h3>
-                <ul>
-                
-                     <li>Ben Hachey, <span class="wradford">Will Radford</span>, Joel Nothman, Matthew Honnibal, James R. Curran <span class="title">Evaluating entity linking with Wikipedia</span> <span class="pub">Artificial Intelligence</span> [<a href="http://dx.doi.org/10.1016/j.artint.2012.04.005">www</a>] </li>
-                
-                     <li>Joel Nothman, Nicky Ringland, <span class="wradford">Will Radford</span>, Tara Murphy, James R. Curran <span class="title">Learning multilingual named entity recognition from Wikipedia</span> <span class="pub">Artificial Intelligence</span> [<a href="http://dx.doi.org/10.1016/j.artint.2012.03.006">www</a>] </li>
-                
-                     <li><span class="wradford">Will Radford</span>, James R. Curran <span class="title">Joint apposition extraction with syntactic and semantic constraints</span> <span class="pub">in Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</span> [<a href="http://www.aclweb.org/anthology/P13-2118">www</a>] </li>
-                
-                     <li>Glen Pink, <span class="wradford">Will Radford</span>, Will Cannings, Andrew Naoum, Joel Nothman, Daniel Tse, James R. Curran <span class="title">SYDNEY_CMCRC at TAC 2013</span> <span class="pub">in Proceedings of the Text Analysis Conference (to appear)</span> [<a href="http://www.it.usyd.edu.au/~gpin7031/pubs/tac13sysdesc.pdf">www</a>] </li>
-                
-                </ul>
-            
-                <h3>2012</h3>
-                <ul>
-                
-                     <li><span class="wradford">Will Radford</span>, Will Cannings, Andrew Naoum, Joel Nothman, Glen Pink, Daniel Tse, James R. Curran <span class="title">(Almost) Total Recall -- SYDNEY_CMCRC at TAC 2012</span> <span class="pub">in Proceedings of the Text Analysis Conference</span> [<a href="pubs/tac12sysdesc.pdf">www</a>] </li>
-                
-                </ul>
-            
-                <h3>2011</h3>
-                <ul>
-                
-                     <li>Ben Hachey, <span class="wradford">Will Radford</span>, James R. Curran <span class="title">Graph-based named entity linking with Wikipedia</span> <span class="pub">in Proceedings of the 12th International Conference on Web Information System Engineering</span> [<a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-642-24433-9">www</a>] | [<a href="http://web.science.mq.edu.au/~bhachey/pubs/hachey-wise11-graph-preprint.pdf">www</a>] </li>
-                
-                     <li><span class="wradford">Will Radford</span>, Ben Hachey, Matthew Honnibal, Joel Nothman, James R. Curran <span class="title">Naive but effective NIL clustering baselines -- CMCRC at TAC 2011</span> <span class="pub">in Proceedings of the Text Analysis Conference</span> [<a href="pubs/tac11sysdesc.pdf">www</a>] </li>
-                
-                </ul>
-            
-                <h3>2010</h3>
-                <ul>
-                
-                     <li><span class="wradford">Will Radford</span>, Ben Hachey, James R. Curran, Maria Milosavljevic <span class="title">Tracking information flow between primary and secondary news sources</span> <span class="pub">in Proceedings of the NAACL HLT 2010 Workshop on Computational Linguistics in a World of Social Media</span> [<a href="http://www.aclweb.org/anthology/W10-0515.pdf">www</a>] </li>
-                
-                     <li>Maria Milosavljevic, Jean-Yves Delort, Ben Hachey, Bavani Arunasalam, <span class="wradford">Will Radford</span>, James R. Curran <span class="title">Automating financial surveillance</span> <span class="pub">in User Centric Media (LNCS)</span> [<a href="http://dx.doi.org/10.1007/978-3-642-12630-7_38">www</a>] </li>
-                
-                     <li><span class="wradford">Will Radford</span>, Ben Hachey, Joel Nothman, Matthew Honnibal, James R. Curran <span class="title">Document-level entity linking: CMCRC at TAC 2010</span> <span class="pub">in Proceedings of the Text Analysis Conference</span> [<a href="http://www.nist.gov/tac/publications/2010/participant.papers/CMCRC.proceedings.pdf">www</a>] </li>
-                
-                </ul>
-            
-                <h3>2009</h3>
-                <ul>
-                
-                     <li><span class="wradford">Will Radford</span> <span class="title">Tracking information flow in finance text</span> <span class="pub">- Honours thesis</span> [<a href="pubs/wradford-hons-thesis.pdf">www</a>] </li>
-                
-                     <li><span class="wradford">Will Radford</span>, Ben Hachey, James R Curran, Maria Milosavljevic <span class="title">Tracking information flow in financial text</span> <span class="pub">in Proceedings of the Australasian Language Technology Association Workshop 2009</span> [<a href="http://aclweb.org/anthology-new/U/U09/U09-1003.pdf">www</a>] </li>
-                
-                </ul>
-            
-                <h3>2007</h3>
-                <ul>
-                
-                     <li>Dominique Estival, Tanja Gaustad, Son Bao Pham, Ben Hutchinson, <span class="wradford">Will Radford</span> <span class="title">Author Proﬁling for English Emails</span> <span class="pub">in Proceedings of the 10th Conference of the Paciﬁc Association for Computational Linguistics</span> [<a href="http://mandrake.csse.unimelb.edu.au/pacling2007/files/final/51/51_Paper_meta.pdf">www</a>] </li>
-                
-                     <li>Dominique Estival, Tanja Gaustad, Son Bao Pham, Ben Hutchinson, <span class="wradford">Will Radford</span> <span class="title">TAT: an author profiling tool with application to arabic emails</span> <span class="pub">in Proceedings of the Australasian Language Technology Workshop 2007</span> [<a href="http://aclweb.org/anthology-new/U/U07/U07-1006.pdf">www</a>] </li>
-                
-                </ul>
-            
+          </p>
         </div>
-        <div id="reviewing">
-            <h2>Reviewing</h2>
-            <p>
-            <ul>
-              <li>Asia Information Retrieval Societies Conference in <a href="http://irlab.csie.ntu.edu.tw/airs2010/committee.php">2010</a> and <a href="http://www.uowdubai.ac.ae/airs2011/details.php?sec=2,3">2011</a>.</li>
-              <li>Linked Data for Information Extraction in <a href="http://oak.dcs.shef.ac.uk/ld4ie2014">2014</a> and <a href="http://oak.dcs.shef.ac.uk/ld4ie2015">2015</a>.</li>
-              <li>Australasian Language Technology Association Workshop in <a href="http://www.alta.asn.au/events/alta2014">2014</a>, <a href="http://www.alta.asn.au/events/alta2015">2015</a> and <a href="http://www.alta.asn.au/events/alta2016/">2016</a>.</li>
-              <li>Australasian Joint Conference on Artificial Intelligence in <a href="http://ai2015.unsw.adfa.edu.au">2015</a>.</li>
-              <li>Empirical Methods in Natural Language Processing in <a href="http://www.emnlp2015.org">2015</a> and <a href="http://www.emnlp2016.net">2016</a>.</li>
-              <li>North American Chapter of the Association for Computational Linguistics in <a href="http://naacl.org/naacl-hlt-2016">2016</a>.</li>
-              <li>Workshop on Noisy User-generated Text (W-NUT) in <a href="http://noisy-text.github.io/2016/">2016</a>.</li>
-            </ul>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Generating short biographies from database records using neural networks.</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          I co-supervised <a href="https://twitter.com/andrewchisholm">Andy</a> building a system to generate biographical sentences from database records (i.e. Wikidata to Wikipedia) using neural sequence-to-sequence models. 
+          </p>
+          <a href="https://aclweb.org/anthology/E17-1060">EACL17</a>
         </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Analysing post-editing of biography text</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          I worked with the rest of the Hugo team to analyse how content-experts corrected automatically-generated biography text for our users.
+          </p>
+          <a href="http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p791.pdf">WWW17</a>
+        </div>
+      </div>
+
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Analysing translation into emoji with EmojiDick</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          I analyzed the translations created in <a href="http://www.emojidick.com/">EmojiDick</a>, a project to translate Moby Dick into emoji 🐳.
+          </p>
+          <a href="https://www.aclweb.org/anthology/U/U16/U16-1018.pdf">ALTA16 paper</a>
+          <a href="https://github.com/wejradford/emojidick/blob/master/emojidick.ipynb" class="card-link">Jupyter</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Triaging mental health forum posts</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          <a href="https://twitter.com/benhachey">Ben</a>, Glen and I submitted a system to the <a href="http://clpsych.org">CLPsych</a> shared task to triage posts on the <a href="https://au.reachout.com/">Reach Out</a> mental health forum.
+          </p>
+          <a href="http://hollingk.github.io/CLPsych/pdf/CLPsych24.pdf" class="card-link">CLPsych16</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Discovering knowledge bases on the web</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          I co-supervised <a href="https://twitter.com/andrewchisholm">Andy</a> on work trying to identify website URLs that act as endpoints for an ad-hoc knowledge base.
+          </p>
+          <a href="https://aclweb.org/anthology/W/W16/W16-1302.pdf" class="card-link">AKBC16</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Evaluating entity timelines</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="https://www.hugo.ai">Hugo.ai</a> (a.k.a. Abbrevi8)</h6>
+          <p class="card-text">
+          I co-supervised <a href="https://www.linkedin.com/in/xavier-holt/">Xavier H.</a> on a project evaluating how entity timelines -- lists of stories about an entity -- are built.
+          </p>
+          <a href="https://www.aclweb.org/anthology/U/U16/U16-1019.pdf" class="card-link">ALTA16</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">High quality named entity recognition with knowledge bases</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at Xerox Research Centre Europe, now <a href="http://www.europe.naverlabs.com/">Naver Labs Europe</a>.</h6>
+          <p class="card-text">
+          <a href="http://cui.unige.ch/~hendersj/">Jamie</a>, <a href="https://twitter.com/xavier_nlp">Xavier</a> and I worked on some interactive information extraction, investigating the question: if a user could correct the first few sentences of a document, how well could a system tag the rest?
+          </p>
+          <a href="https://www.aclweb.org/anthology/D/D15/D15-1058.pdf" class="card-link">EMNLP15</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Natural language understanding for chatbots</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at Xerox Research Centre Europe, now <a href="http://www.europe.naverlabs.com/">Naver Labs Europe</a>.</h6>
+          <p class="card-text">
+          I worked on a large team on chatbots for customer care, specialising in natural language understanding in the mobile telecoms domain -- what is the user's intent, what entities and problems are they talking about?
+          </p>
+          <a href="https://www.youtube.com/watch?list=PLsX3eJ1gB1_Ao7Nw8nLAZqrxtUHpnDzKB&v=vlM3fyeDZi8" class="card-link">Video</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Tracking dialogue state</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at Xerox Research Centre Europe, now <a href="http://www.europe.naverlabs.com/">Naver Labs Europe</a>.</h6>
+          <p class="card-text">
+          <a href="https://twitter.com/perezjln">Julien</a> and I worked on a submission to the 4th <a href="http://www.colips.org/workshop/dstc4/">Dialogue State Tracking Challenge</a> that attempted to keep up with a conversation between a travel guide and their customer.
+          </p>
+          <a href="http://www.colips.org/workshop/dstc4/papers/31.pdf" class="card-link">DSTC4</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Mining gender from IMDb castlists</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at Xerox Research Centre Europe, now <a href="http://www.europe.naverlabs.com/">Naver Labs Europe</a>.</h6>
+          <p class="card-text">
+          <a href="https://twitter.com/mgalle">Matthias</a> and I mined IMDb for insights into how film and television gender representation has changed over time. It got picked up by <a href="http://www.nytimes.com/2015/04/26/opinion/sunday/what-role-do-you-want-to-play.html">The Gray Lady</a>😱.
+          </p>
+          <a href="http://www.www2015.it/documents/proceedings/companion/p323.pdf">WWW15-WS</a>
+          <a href="http://www.nytimes.com/2015/04/26/opinion/sunday/what-role-do-you-want-to-play.html">New York Times</a>
+          <a href="http://www.webscience-journal.net/webscience/article/view/23">JWS16</a>
+          <a href="https://github.com/wejradford/castminer">GitHub</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Teasing apart similar languages from Tweets using social data</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at Xerox Research Centre Europe, now <a href="http://www.europe.naverlabs.com/">Naver Labs Europe</a>.</h6>
+          <p class="card-text">
+          <a href="https://twitter.com/mgalle">Matthias</a> and I used social data to identify the language a tweet is written in.
+          </p>
+          <a href="https://arxiv.org/abs/1607.05408">arXiv</a>
+          <a href="https://www.google.com/patents/US9645995">Patent</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Named Entity Linking for media</h5>
+          <h6 class="card-subtitle mb-2 text-muted">PhD project with <a href="https://sydney.edu.au/engineering/about/school-of-information-technologies.html">Sydney Uni</a>, <a href="https://www.cmcrc.com/">the CMCRC</a> and <a href="http://www.fairfaxmedia.com.au/">Fairfax Media</a></h6>
+          <p class="card-text">
+          My thesis (supervised by <a href="https://twitter.com/DrJamesCurran">James</a> and  <a href="https://twitter.com/benhachey">Ben</a>) was on how to link named entity mentions to knowledge bases -- or which Wikipedia article should we link "John Smith" to in a news story?
+
+          We worked with Fairfax to commercialise this into <a href="http://www.smh.com.au/zoom">zoom</a>, a product that lets users browse news by entity rather than story.
+
+          We also participated in the <a href="https://www.nist.gov/tac/about/index.html">TAC</a> shared task from 2010 to 2013.
+          </p>
+          <a href="https://www.nist.gov/tac/publications/2010/participant.papers/CMCRC.proceedings.pdf" class="card-link">TAC10</a>
+          <a href="https://wejradford.github.io/pubs/tac11sysdesc.pdf" class="card-link">TAC11</a>
+          <a href="https://wejradford.github.io/pubs/tac12sysdesc.pdf" class="card-link">TAC12</a>
+          <a href="https://www.it.usyd.edu.au/~gpin7031/pubs/tac13sysdesc.pdf" class="card-link">TAC13</a>
+          <a href="https://dx.doi.org/10.1016/j.artint.2012.04.005">AIJ13-NEL</a>
+          <a href="https://dx.doi.org/10.1016/j.artint.2012.03.006">AIJ13-NER</a>
+          <a href="https://www.aclweb.org/anthology/P14-2076">ACL14</a>
+          <a href="https://ses.library.usyd.edu.au//bitstream/2123/12850/1/Radford_WEJ_Thesis.pdf">PhD</a>
+          <a href="http://www.www2015.it/documents/proceedings/companion/p903.pdf">NewsWWW15</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Tracking the flow of financial news</h5>
+          <h6 class="card-subtitle mb-2 text-muted">PhD project with <a href="https://sydney.edu.au/engineering/about/school-of-information-technologies.html">Sydney Uni</a>, <a href="https://www.cmcrc.com/">the CMCRC</a>.</h6>
+          <p class="card-text">
+          This project was to try and identify how ASX company announcements were reported in the Reuters news service, categorising whether they reported facts, general background or new analysis.
+          </p>
+          <a href="https://aclweb.org/anthology-new/U/U09/U09-1003.pdf" class="card-link">ALTA09</a>
+          <a href="https://wejradford.github.io/pubs/wradford-hons-thesis.pdf" class="card-link">Honours</a>
+          <a href="http://www.aclweb.org/anthology/W10-0515.pdf" class="card-link">NAACL10-workshop</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Demographic and psychometric profiling email authors using the messages they write</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Work at <a href="http://www.appen.com/">Appen</a>.</h6>
+          <p class="card-text">
+          I worked on a team collecting data and building a system to predict an email author's age, education, gender and big-five psychometric attributes from the text they had written.
+          </p>
+          <a href="https://aclweb.org/anthology-new/U/U07/U07-1006.pdf" class="card-link">ALTA07</a>
+        </div>
+      </div>
+     
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Reviewing</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+          Work for the academic community
+          </h6>
+            <a class="card-link" href="http://acl2017.org/">ACL17</a>
+            <a class="card-link" href="http://irlab.csie.ntu.edu.tw/airs2010/committee.php">AIRS10</a>
+            <a class="card-link" href="http://www.uowdubai.ac.ae/airs2011/details.php?sec=2,3">AIRS11</a>
+            <a class="card-link" href="http://ai2015.unsw.adfa.edu.au/">AJCAI15</a>
+            <a class="card-link" href="http://www.alta.asn.au/events/alta2014">ALTA14</a>
+            <a class="card-link" href="http://www.alta.asn.au/events/alta2015">ALTA15</a>
+            <a class="card-link" href="http://www.alta.asn.au/events/alta2016">ALTA16</a>
+            <a class="card-link" href="http://www.alta.asn.au/events/alta2017">ALTA17</a>
+            <a class="card-link" href="http://www.emnlp2015.org/">EMNLP15</a>
+            <a class="card-link" href="http://www.emnlp2016.net/">EMNLP16</a>
+            <a class="card-link" href="http://emnlp2017.net/">EMNLP17</a>
+            <a class="card-link" href="http://oak.dcs.shef.ac.uk/ld4ie2014">LD4IE14</a>
+            <a class="card-link" href="http://oak.dcs.shef.ac.uk/ld4ie2015">LD4IE15</a>
+            <a class="card-link" href="http://naacl.org/naacl-hlt-2016">NAACL16</a>
+            <a class="card-link" href="http://noisy-text.github.io/2016/">W-NUT16</a>
+        </div>
+      </div>
+      
+      <div class="card m-1">
+        <div class="card-body">
+          <h5 class="card-title">Teaching</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+          Work at Sydney Uni
+          </h6>
+          <p class="card-text">
+          I tutored <a href="http://rp-www.cs.usyd.edu.au/~info1903/">INFO1903 Infomatics (Advanced)</a> (lots of python in 2010, 2011, 2012) and <a href="http://rp-www.cs.usyd.edu.au/~comp5338/">COMP5338 Advanced Data Models</a> (2010, 2011). I received a 2012 Dean's Award for Excellence in Tutoring (School). I have delivered a couple of guest lectures for software engineering and NLP courses.
+          </p>
+        </div>
+      </div>
+
     </div>
+
     <!-- Google Analytics code -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-63492848-1', 'auto');
     ga('send', 'pageview');
     </script>
     <!-- End Google Analytics code -->
   </body>
-</html>
 
+</html>
